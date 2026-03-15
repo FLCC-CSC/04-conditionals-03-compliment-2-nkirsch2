@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nathan Kirsch
+# DATE: 3/15/2026
+# BRIEF DESCRIPTION:  A program that gives a compliment only if the user types "yes" exactly
 
 
 
@@ -14,7 +14,17 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+# Ask for user input
+answer = input("Would you like a compliment? ")
 
+# Check the condition using the == operator
+if answer == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+# This line runs no matter what the user typed
+print("Thank you for playing.")
 
 
 
@@ -70,7 +80,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+NO
 
 
 
